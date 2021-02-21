@@ -1,0 +1,50 @@
+.access {
+  background-color: #A193861F;
+}
+
+.access-nav {
+  display: flex;
+  padding-bottom: 7rem;
+  @include sp{
+    flex-direction: column-reverse;
+  }
+}
+
+.access-nav__txt {
+  width: 40%;
+  height: 39.6rem;
+  background-color: #D0C5BA;
+  position: relative;
+  @include sp{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.access-guide {
+  background-color: #D0C5BA;
+  width: 40%;
+  height: 48%;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.9;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  min-width: 210px;
+}
+
+.access-name {
+  font-weight: bold;
+  font-size: 2.3rem;
+  color: #00000038;
+  padding-bottom: 2rem;
+}
+
+.access-map {
+  width: 60%;
+  @include sp{
+    width: 100%;
+    height: 23rem;
+  }
+}

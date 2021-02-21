@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Salon Beppu</title>
+</head>
+<body>
+
+  <header>
+    <h1 class="header-logo">SALON BEPPU</h1>
+
+    <div id="drawer">
+      <input id="input" type="checkbox" class="unshown">
+      <label id="open" for="input"><span></span></label>
+      <label class="unshown" id="close" for="input"></label>
+      <div id="menu-content">
+        <nav class="ham-nav">
+          <ul>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#concept">CONCEPT</a></li>
+            <li><a href="#access">ACCESS</a></li>
+            <li><a href="#reserve">RESERVE</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <nav class="pc-nav">
+      <ul class="pc-nav__menu">
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#concept">CONCEPT</a></li>
+        <li><a href="#access">ACCESS</a></li>
+        <li><a href="#reserve">RESERVE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="first-v">
+      <div class="first-v__wrap">
+        <p class="catch-1">髪は、大事です。</p>
+        <p class="catch-2">We need Hair.</p>
+      </div>
+    </section>
+
+    <section id="concept" class="concept">
+      <div class="inner">
+        <h2 class="title">CONCEPT</h2>
+        <div class="concept-img">
+          <img class="concept-img__1" src="./img/img2.png" alt="">
+          <img class="concept-img__2" src="./img/img3.png" alt="">
+        </div>
+        <div class="concept-item">
+          <h3 class="concept-item__title">髪は、大事です。</h3>
+          <p class="concept-item__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <div class="inner">
+        <h2 class="title">MENU</h2>
+        <div class="menu-wrap">
+          <div class="menu-item">
+            <div class="menu-item-img">
+              <img src="./img/img4.png" alt="">
+              <h4 class="menu-item-title">Design Cut</h4>
+              <p class="menu-item-text">テキストテキストテキスト。テキストテキストテキスト。テキストテキストテキスト。テキストテキストテキスト。テキストテキストテキスト。</p>
+              <p class="menu-item-price">¥9,800(税抜)</p>
+            </div>
+            <div class="menu-item-img">
+              <img src="./img/img5.png" alt="">
+              <h4 class="menu-item-title">Design Cut</h4>
+              <p class="menu-item-text">テキストテキストテキスト。テキストテキストテキスト。テキストテキストテキスト。テキストテキストテキスト。テキストテキストテキスト。</p>
+              <p class="menu-item-price">¥9,800(税抜)</p>
+            </div>
+            <div class="menu-item-img">
+              <img src="./img/img6.png" alt="">
+              <h4 class="menu-item-title">Design Cut</h4>
+              <p class="menu-item-text">テキストテキストテキスト。テキストテキストテキスト。テキストテキストテキスト。テキストテキストテキスト。テキストテキストテキスト。</p>
+              <p class="menu-item-price">¥9,800(税抜)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="access" class="access">
+      <div class="inner">
+        <h2 class="title">ACCESS</h2>
+      </div>
+      <nav class="access-nav">
+        <div class="access-nav__txt">
+          <table class="access-guide">
+              <tr><td class="access-name">池袋東口店</td></tr>
+              <tr><td>テキストテキストテキスト</td></tr>
+              <tr><td>000-0000-0000</td></tr>
+              <tr><td>営業時間 10:00~18:00</td></tr>
+              <tr><td>定休日 第一・第三月曜日</td></tr>
+            </table>
+        </div>
+        <iframe class="access-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1925.8449852901283!2d139.70923822422992!3d35.7293592756874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d67ea7d312d%3A0x47794ab11ff8c879!2z5rGg6KKL6aeF5p2x5Y-j!5e0!3m2!1sja!2sjp!4v1613303431560!5m2!1sja!2sjp" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </nav>
+    </section>
+
+  </main>
+
+  <footer id="reserve" class="reserve">
+    <div class="inner-footer">
+      <div class="footer-border"></div>
+      <div class="footer-wrap">
+        <div class="footer-item">
+          <p class="footer-title">SALON BEPPU</p>
+          <div class="footer-icon">
+            <img class="footer-icon-1" src="./img/icon1.jpg" alt="">
+            <img class="footer-icon-2" src="./img/icon2.png" alt="">
+          </div>
+        </div>
+        <button class="footer-btn">RESERVE</button>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

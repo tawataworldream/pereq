@@ -1,0 +1,33 @@
+.menu-item{
+  display: flex;
+  justify-content: space-between;
+  &-img{
+    width: 25%;
+  }
+  &-title{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3.5rem;
+  }
+  &-text{
+    font-size: 1.6rem;
+    padding-top: 3.5rem;
+  }
+  &-price{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 3.5rem;
+  }
+  @include sp {
+    flex-direction: column;
+    &-img{
+      width: 100%;
+      margin-bottom: 5rem;
+    }
+  }
+}
+img{
+  width: 100%;
+}

@@ -1,0 +1,42 @@
+.first-v{
+  background-image: url(../img/img1.png);
+  background-size: cover;
+  margin-left: auto;
+  width: 55%;
+  height: 100vh;
+  position: relative;
+  @include sp{
+    background-image: url(../img/img1.png);
+    width: 100%;
+    position: relative;
+  }
+  &__wrap{
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    height: 27%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+.first-v__wrap{
+  .catch-1{
+    font-family: Noto Sans JP;
+    font-size: 3.8rem;
+  }
+  .catch-2{
+    font-family: Zapfino Extra LT Pro;
+    font-size: 3.8rem;
+  }
+  @include sp{
+    display: flex;
+    flex-direction: column-reverse;
+    color: #FFFFFF;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    height: 20%;
+  }
+}
